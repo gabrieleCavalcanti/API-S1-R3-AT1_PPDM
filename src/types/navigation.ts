@@ -1,5 +1,7 @@
 export type RootStackParamList = {
-    HomeScreen: undefined;
-    InicioScreen: undefined;
-    AboutScreen: undefined
-}
+  HomeScreen: undefined;
+  InicioScreen: undefined;
+  AboutScreen: {
+    date: string;
+  };
+};
